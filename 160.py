@@ -1,0 +1,6 @@
+root.minsize(650,650)
+root.maxsize(650,650)
+root.configure(background="gray87")
+open_img = ImageTk.PhotoImage(Image.open ("open_file.png"))
+label_file_name.place(relx=0.28,rely=0.03,anchor= CENTER)
+input_file_name.place(relx=0.46,rely=0.03, anchor = CENTER)
